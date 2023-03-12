@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 01</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Aprendendo CSS, no inline tem precedencia maior</h1>
+            <h2>Dentro do HTML, no head</h2>
+        </header>
+
+        <nav>
+
+        </nav>
+
+        <main>
+            <div id="esquerda"></div>
+                <h3>Por link, ou referencia</h3>
+
+                <p>Para mais detalhes acesse o <a href="#">link</a></p>
+
+                <ul>
+                    <li>Python</li>
+                    <li>PHP</li>
+                    <li>JAVA</li>
+                    <li>JS</li>
+                </ul>
+
+                <ol>
+                    <li>Bootstrap</li>
+                    <li>SpringBoot</li>
+                    <li>MySQL</li>
+                    <li>Flask</li>
+                </ol>
+            </div>
+
+            <div id="direita">
+                <form>
+                    <fieldset>
+                        <legend><strong>CADASTRO</strong></legend>
+
+                        <p>
+                            <label for="id_cad">Id</label><br/>
+                            <input id="id_cad" name="id_cad" required="required" type="number">
+                        </p>
+
+                        <p>
+                            <label for="nome_cad">Nome</label><br/>
+                            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Digite seu nome">
+                        </p>
+
+                        <p>
+                            <label for="end_cad">Endereço</label><br/>
+                            <input id="end_cad" name="end_cad" required="required" type="text" placeholder="Digite seu endereço">
+                        </p>
+
+                        <p>
+                            <label for="email_cad">Email</label><br/>
+                            <input id="email_cad" name="email_cad" required="required" type="text" placeholder="Digite seu email">
+                        </p>
+
+                        <p>
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <script src="/modulo5/pratica/aula3/funcoes.js"></script>
+    </body>
+</html>
